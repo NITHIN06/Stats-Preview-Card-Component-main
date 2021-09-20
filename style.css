@@ -90,6 +90,9 @@ p{
     *{
         text-align: center;
     }
+    body{
+        padding: 100px;
+    }
     .card{
         flex-direction: column;
         padding: 0 0 50px 0;
