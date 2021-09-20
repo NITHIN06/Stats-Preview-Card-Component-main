@@ -102,6 +102,10 @@ p{
     .img{
         content: url('./images/image-header-mobile.jpg');
         width: 100%;
+        border-radius: 10px 10px 0 0
+    }
+    .top-img,.top-img:after{
+        border-radius: 10px 10px 0 0;
     }
     .content{
         width: 80%;
