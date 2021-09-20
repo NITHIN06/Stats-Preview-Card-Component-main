@@ -97,7 +97,7 @@ p{
         flex-direction: column;
         padding: 0 0 50px 0;
         gap: 25px;
-        width: 70%;
+        width: 25rem;
     }
     .img{
         content: url('./images/image-header-mobile.jpg');
