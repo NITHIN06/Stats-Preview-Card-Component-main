@@ -12,7 +12,7 @@ body{
     padding: auto;
 }
 .card{
-    /* margin: auto 500px auto 500px; */
+    margin-bottom: 10px;
     background-color: #1c1938;
     display: flex;
     width: min-content;
@@ -92,7 +92,7 @@ p{
     }
     .card{
         flex-direction: column;
-        padding: 0 0 100px 0;
+        padding: 0 0 50px 0;
         gap: 25px;
     }
     .img{
