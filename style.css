@@ -58,12 +58,25 @@ body{
     left:0; top:0;
     width:100%; height:100%;
     display:inline-block;
-    background: #790bbd52;
+    background: #9506ee52;
     border-radius: 0 10px 10px 0;
   }
+.vio{
+    color: #924dbd
+}
+.content>h1{
+    font-size: 2.25rem;
+}
+p{
+    font-size: 0.9rem;
+}
 .stats{
     display: flex;
     gap: 50px;
+    text-transform:uppercase;
+}
+.stat>h1{
+    font-size: 1.5rem;
 }
 .content{
     display: flex;
@@ -74,9 +87,13 @@ body{
 }
 @media (max-width: 1000px)
 {
+    *{
+        text-align: center;
+    }
     .card{
         flex-direction: column;
         padding: 0 0 100px 0;
+        gap: 25px;
     }
     .img{
         content: url('./images/image-header-mobile.jpg');
@@ -84,5 +101,9 @@ body{
     }
     .content{
         width: 80%;
+    }
+    .stats{
+        flex-direction: column;
+        gap: 20px;
     }
 }
